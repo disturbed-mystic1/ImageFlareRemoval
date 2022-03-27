@@ -10,16 +10,16 @@ This project aims to tackle the issue of image flaring normally seen in daylight
 
 ## Objectives
 
-• To collect natural and synthetic flare-free images and apply artificial flare artifacts to them using image processing and blending techniques. Make matching paired   images (ground-truth, mask) using python file management libraries
-• To use transfer learning to extract features and help the algorithm to localize flares and not just the light source. To train our GAN to help remove flares.
-• To compare our work using metrics such as PSNR/SSIM with preexisting techniques.
+• To collect natural and synthetic flare-free images and apply artificial flare artifacts to them using image processing and blending techniques. Make matching paired   images (ground-truth, mask) using python file management libraries. \n
+• To use transfer learning to extract features and help the algorithm to localize flares and not just the light source. To train our GAN to help remove flares. \n
+• To compare our work using metrics such as PSNR/SSIM with preexisting techniques. \n
 
 ## Methodology
 
-• Creating a Synthetic Dataset with paired ground truth and flared images and loading the images together.
-• Applying Pre-Processing techniques to resize the images into the right format and apply transformation and sampling techniques
-• Extracting Features from the flared image using transfer learning techniques like ResNet/VGG-16 to prevent losing features like sunlight or other light sources and     just eliminating the flares.
-• These extracted features are then fed as an input to an Encoder-Decoder Model called U-net using Patch GAN as a discriminator. The generated images are compared with   the ground truth images with metrics like PSNR and SSIM. Further, these results are compared with other models.
+• Creating a Synthetic Dataset with paired ground truth and flared images and loading the images together. \n
+• Applying Pre-Processing techniques to resize the images into the right format and apply transformation and sampling techniques. \n
+• Extracting Features from the flared image using transfer learning techniques like ResNet/VGG-16 to prevent losing features like sunlight or other light sources     and just eliminating the flares. \n
+• These extracted features are then fed as an input to an Encoder-Decoder Model called U-net using Patch GAN as a discriminator. The generated images are compared     with the ground truth images with metrics like PSNR and SSIM. Further, these results are compared with other models. \n
 
 ## References
 
