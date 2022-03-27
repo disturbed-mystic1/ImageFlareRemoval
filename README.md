@@ -12,14 +12,14 @@ This project aims to tackle the issue of image flaring normally seen in daylight
 
 • To collect natural and synthetic flare-free images and apply artificial flare artifacts to them using image processing and blending techniques. Make matching paired   images (ground-truth, mask) using python file management libraries. \
 • To use transfer learning to extract features and help the algorithm to localize flares and not just the light source. To train our GAN to help remove flares. \
-• To compare our work using metrics such as PSNR/SSIM with preexisting techniques. \
+• To compare our work using metrics such as PSNR/SSIM with preexisting techniques. 
 
 ## Methodology
 
 • Creating a Synthetic Dataset with paired ground truth and flared images and loading the images together. \
 • Applying Pre-Processing techniques to resize the images into the right format and apply transformation and sampling techniques. \
 • Extracting Features from the flared image using transfer learning techniques like ResNet/VGG-16 to prevent losing features like sunlight or other light sources     and just eliminating the flares. \
-• These extracted features are then fed as an input to an Encoder-Decoder Model called U-net using Patch GAN as a discriminator. The generated images are compared     with the ground truth images with metrics like PSNR and SSIM. Further, these results are compared with other models. \
+• These extracted features are then fed as an input to an Encoder-Decoder Model called U-net using Patch GAN as a discriminator. The generated images are compared     with the ground truth images with metrics like PSNR and SSIM. Further, these results are compared with other models. 
 
 ## References
 
@@ -44,4 +44,4 @@ Zhang, X., Ng, R., & Chen, Q. (2018). Single image reflection separation with pe
 [10]
 Demir, U., & Unal, G. (2018). Patch-based image inpainting with generative adversarial networks. arXiv preprint arXiv:1803.07422. \
 [11]
-Cho, K., Van Merriënboer, B., Bahdanau, D., & Bengio, Y. (2014). On the properties of neural machine translation: Encoder-decoder approaches. arXiv preprint arXiv:1409.1259. \
+Cho, K., Van Merriënboer, B., Bahdanau, D., & Bengio, Y. (2014). On the properties of neural machine translation: Encoder-decoder approaches. arXiv preprint arXiv:1409.1259. 
