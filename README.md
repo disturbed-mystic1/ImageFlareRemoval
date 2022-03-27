@@ -8,6 +8,10 @@ Photographs of scenes taken under a strong light source usually result in some u
 
 This project aims to tackle the issue of image flaring normally seen in daylight photos. These flare patterns depend on the optics of the lens, size of the aperture, and imperfections. This leads to a diverse pattern of flares, which are usually difficult to tackle. Previously used image-processing techniques naively relied on template matching and intensity thresholding to localize the flare artifact.
 
+## Dataset 
+
+The images for this dataset was collected and created using image processing techniques.
+
 ## Objectives
 
 • To collect natural and synthetic flare-free images and apply artificial flare artifacts to them using image processing and blending techniques. Make matching paired   images (ground-truth, mask) using python file management libraries. \
